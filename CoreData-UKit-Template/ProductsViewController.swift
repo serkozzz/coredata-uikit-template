@@ -17,7 +17,7 @@ class ProductsViewController: UIViewController, UICollectionViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ModelLoader().createDBIfDoesntExist()
+
         collectionView.register(UICollectionViewListCell.self, forCellWithReuseIdentifier: "Cell")
         collectionView.collectionViewLayout = createLayout()
         collectionView.isScrollEnabled = false
@@ -49,6 +49,9 @@ class ProductsViewController: UIViewController, UICollectionViewDelegate {
         dataSource.apply(viewModel.snapshot, animatingDifferences: animating)
     }
     
+    @IBAction func removeFirst(_ sender: Any) {
+        viewModel.removeFirstProduct()
+    }
     
 }
 

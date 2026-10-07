@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		9D12BF9E307543E600F62912 /* Exceptions for "SandboxUIKit" folder in "CoreData-UIKit-Template" target */ = {
+		9D12BF9E307543E600F62912 /* Exceptions for "CoreData-UKit-Template" folder in "CoreData-UIKit-Template" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,12 +21,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9D12BF8E307543E300F62912 /* SandboxUIKit */ = {
+		9D12BF8E307543E300F62912 /* CoreData-UKit-Template */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				9D12BF9E307543E600F62912 /* Exceptions for "SandboxUIKit" folder in "CoreData-UIKit-Template" target */,
+				9D12BF9E307543E600F62912 /* Exceptions for "CoreData-UKit-Template" folder in "CoreData-UIKit-Template" target */,
 			);
-			path = SandboxUIKit;
+			path = "CoreData-UKit-Template";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		9D12BF83307543E300F62912 = {
 			isa = PBXGroup;
 			children = (
-				9D12BF8E307543E300F62912 /* SandboxUIKit */,
+				9D12BF8E307543E300F62912 /* CoreData-UKit-Template */,
 				9D12BF8D307543E300F62912 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9D12BF8E307543E300F62912 /* SandboxUIKit */,
+				9D12BF8E307543E300F62912 /* CoreData-UKit-Template */,
 			);
 			name = "CoreData-UIKit-Template";
 			packageProductDependencies = (
@@ -147,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7499ZBZAZ6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SandboxUIKit/Info.plist;
+				INFOPLIST_FILE = "CoreData-UKit-Template/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -179,7 +179,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7499ZBZAZ6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SandboxUIKit/Info.plist;
+				INFOPLIST_FILE = "CoreData-UKit-Template/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
